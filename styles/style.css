@@ -126,9 +126,9 @@ a {
 }
 .lots__card-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 25px;
   list-style: none;
-  flex-wrap: wrap;
 }
 .card_type_film {
   background-image: url(../images/card-lot-01.jpg);
@@ -233,7 +233,7 @@ a {
   font-size: 18px;
   line-height: 25px;
 }
-.footer__adress{
+.footer__adress {
   font-style: normal;
 }
 .footer__menu {
