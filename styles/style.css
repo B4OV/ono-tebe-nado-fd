@@ -114,9 +114,6 @@
   font-size: 40px;
   text-transform: uppercase;
 }
-.lots__card-list {
-  flex-wrap: wrap;
-}
 .lots__card-list-item {
   width: 334px;
   min-height: 596px;
@@ -131,6 +128,7 @@ a {
   display: flex;
   gap: 25px;
   list-style: none;
+  flex-wrap: wrap;
 }
 .card_type_film {
   background-image: url(../images/card-lot-01.jpg);
