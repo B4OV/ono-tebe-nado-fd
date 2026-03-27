@@ -5,40 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
-    <link rel="stylesheet" href="fonts/fonts.css" />
-    <link rel="stylesheet" href="/styles/global.css" />
-    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
     <header class="header">
-      <nav class="menu">
-        <ul class="menu-items">
+      <nav class="header__menu">
+        <ul class="header__links-list">
           <li>
-            <span class="header__links-list-item">главная</span>
+            <span class="header__links-list-item_no-bullit">главная</span>
           </li>
-          <li>
-            <a class="header__links-list-item" href="#0">посмотреть лоты</a>
+          <li class="header__links-list-item">
+            <a class="header__link" href="#0">посмотреть лоты</a>
           </li>
-          <li>
-            <a class="header__links-list-item" href="#0">об аукционе</a>
+          <li class="header__links-list-item">
+            <a class="header__link" href="#0">об аукционе</a>
           </li>
         </ul>
       </nav>
-      <a class="black-logo-link" href="#0">
+      <a class="header__logo" href="#0">
         <img
           class="header__logo-image"
-          src="/images/logo-black.svg"
-          alt="header_logo"
+          src="./images/logo-black.svg"
+          alt="черный логотип шапки"
       /></a>
-      <address class="contacts">
-        <div class="number__mailto">
-          <a href="tel:+99995555555">+9 999 555 5555</a>
-        </div>
-        <div class="number__mailto">
-          <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-        </div>
-        <p>наб. Принсенграхт 263- <br />265, Амстердам</p>
-      </address>
+      <div class="header__adress">
+        <address class="address">
+          <div class="number__mailto">
+            <a href="tel:+99995555555">+9 999 555 5555</a>
+          </div>
+          <div class="number__mailto">
+            <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+          </div>
+          <p>наб. Принсенграхт 263- <br />265, Амстердам</p>
+        </address>
+      </div>
     </header>
     <main>
       <section class="cover">
@@ -114,7 +116,7 @@
         <div class="about__column">
           <div class="about__logo">
             <img
-              src="/images/logo-white.svg"
+              src="./images/logo-white.svg"
               alt="белый логотип"
               class="about__logo-image"
             />
@@ -144,7 +146,7 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="footer__contacts">
+      <div class="footer__adress">
         <address class="contacts">
           <div class="number__mailto">
             <a href="tel:+99995555555">+9 999 555 5555</a>
@@ -176,7 +178,7 @@
             <a href="#0"
               ><img
                 class="footer__social-icon"
-                src="/images/yt.svg"
+                src="./images/yt.svg"
                 alt="YouTube"
             /></a>
           </li>
@@ -184,7 +186,7 @@
             <a href="#0"
               ><img
                 class="footer__social-icon"
-                src="/images/vk.svg"
+                src="./images/vk.svg"
                 alt="ВКонтакте"
             /></a>
           </li>
@@ -192,7 +194,7 @@
             <a href="#0"
               ><img
                 class="footer__social-icon"
-                src="/images/pinterest.svg"
+                src="./images/pinterest.svg"
                 alt="Pinterest"
             /></a>
           </li>
